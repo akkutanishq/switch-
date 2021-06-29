@@ -1,0 +1,41 @@
+#include<stdio.h>
+main()
+{
+	// 1.chose an item in the menu
+	printf("order an plate of : \n 1.pizza $239 \n 2.burger $129 \n 3.pasta $179 \n 4.French Fries $99 \n 5.Sandwich $149");
+	
+	// 2.read there choice 
+	int n=0;
+	scanf("%d",&n);
+	// 3.Display based on there choice 
+	
+	
+	switch (n)
+	{
+		case 1 :
+			printf("You'r order is pizza \n");
+			printf("and you'r bill is $239");
+			break;
+			
+		case 2 :
+			printf("You'r order is burger \n");
+			printf("and you'r bill is $129");
+			break;
+			
+		case 3 :
+			printf("You'r order is pasta \n");
+			printf("and you'r bill is $179");
+			break;
+			
+		case 4 :
+			printf("You'r order is French Fries \n");
+			printf("and you'r bill is $99");
+			break;
+			
+		case 5 :
+			printf("You'r order is Sandwich \n");
+			printf("and you'r bill is $149");
+			break;
+	}
+	return 0;
+}
